@@ -1,0 +1,10 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Navbar } from '../components/Navbar.tsx';
+import { Hero } from '../components/Hero.tsx';
+---
+
+<Layout title="Branly">
+	<Navbar client:load />
+	<Hero client:load />
+</Layout>
